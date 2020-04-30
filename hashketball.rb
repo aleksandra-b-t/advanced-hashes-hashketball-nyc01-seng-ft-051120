@@ -128,5 +128,5 @@ def game_hash
 end
 
 def num_points_scored(name)
-  game_hash[away]
+  game_hash[:away][players][0][:score]
 end
